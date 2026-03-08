@@ -21,7 +21,7 @@ class Config(object):
 
     CLIENT_ID = os.environ.get('CLIENT_ID')
     CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
-    AUTHORITY = "https://login.microsoftonline.com/common"
+    AUTHORITY = "https://login.microsoftonline.com/2ed5a947-68e8-47c7-ba73-1a6b5617b15e"
     REDIRECT_PATH = "/getAToken"
     SCOPE = ["User.Read"]
     SESSION_TYPE = "filesystem"
